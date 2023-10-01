@@ -1,0 +1,11 @@
+:root{
+    --accent-color:#2196F3;
+    --text-color: #212121;
+    --title-color: #FFF;    
+    --description-color: #757575;
+    --info-color: rgba(255, 255, 255, 0.60);
+    --links-color:  #212121;
+    --article-text:  #FFFFFF;
+    --footer-text: #FFFFFF;
+    --background-text: #EEEEEE;
+}
