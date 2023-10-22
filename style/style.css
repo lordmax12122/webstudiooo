@@ -9,3 +9,8 @@
     --footer-text: #FFFFFF;
     --background-text: #EEEEEE;
 }
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
