@@ -1,16 +1,25 @@
-:root{
-    --accent-color:#2196F3;
+:root {
+    --accent-color: #2196F3;
     --text-color: #212121;
-    --title-color: #FFF;    
+    --title-color: #FFF;
     --description-color: #757575;
     --info-color: rgba(255, 255, 255, 0.60);
-    --links-color:  #212121;
-    --article-text:  #FFFFFF;
+    --links-color: #212121;
+    --article-text: #FFFFFF;
     --footer-text: #FFFFFF;
     --background-text: #EEEEEE;
 }
 
-:root {
+body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
 }
+
+.main-pages-list+.contacts-list {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
