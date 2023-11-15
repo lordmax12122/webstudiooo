@@ -14,8 +14,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.main-pages-logo {
+    color: #000;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
 .main-pages-list+.contacts-list {
-    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
