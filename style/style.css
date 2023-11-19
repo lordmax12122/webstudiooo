@@ -200,6 +200,10 @@ body {
     background: #2F303A;
 }
 
+.button {
+    color: var(--title-color);
+}
+
 .button-a {
     color: var(--text-color);
     text-align: center;
