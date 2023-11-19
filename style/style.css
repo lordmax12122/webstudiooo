@@ -14,6 +14,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    border: solid red 1px;
+}
+
 .main-pages-logo {
     color: var(--accent-color);
     font-family: Raleway;
