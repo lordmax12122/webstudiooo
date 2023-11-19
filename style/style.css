@@ -17,8 +17,12 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0 15px;
     border: solid red 1px;
+}
+
+.main-pages {
+    color: var(--title-color);
 }
 
 .main-pages-logo {
@@ -83,7 +87,9 @@ body {
     color: var(--accent-color);
 }
 
-
+.effective-choices-section {
+    background-image: url(/images/background.png);
+}
 
 .effective-choices-h1 {
     color: var(--title-color);
@@ -138,6 +144,10 @@ body {
     width: 370px;
     height: 294px;
     flex-shrink: 0;
+}
+
+.team-section {
+    background: #F5F4FA;
 }
 
 .team-h2 {
