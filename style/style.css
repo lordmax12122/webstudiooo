@@ -132,9 +132,12 @@ header {
   /* 136.364% */
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  width: 1000px;
 }
 
+
 .effective-choices-button {
+  margin-bottom: 30px;
   color: var(--title-color);
   background-color: #2196f3;
   display: block;
@@ -154,6 +157,10 @@ header {
   padding-bottom: 94px;
 }
 
+.plus-list{
+  display: flex;
+}
+
 .plus-h3 {
   color: var(--text-color);
   font-size: 14px;
@@ -161,6 +168,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .plus-p {
@@ -252,7 +260,7 @@ flex-shrink: 0;
   line-height: 1.18;
   letter-spacing: 0.48px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .footer-pages-contacts-address {
@@ -281,23 +289,53 @@ flex-shrink: 0;
   padding-top: 60px;
 }
 
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 94px;
+}
+
 .button {
   color: var(--title-color);
+  margin-bottom: 50px;
 }
 
 .button-a {
-  color: var(--text-color);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.6;
-  /* 162.5% */
-  letter-spacing: 0.48px;
+  color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+letter-spacing: 0.48px;
+padding: 6px 22px 6px 22px;
 }
 
 .button-a:hover {
-  color: var(--title-color);
-  background-color: #2196f3;
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+letter-spacing: 0.48px;
+background-color: var(--accent-color);
+}
+
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 94px;
+}
+
+.portfolio-item{
+  border: 1px solid #EEE;
+background: #FFF;
+display: inline;
 }
 
 .portfolio-h3 {
@@ -307,6 +345,8 @@ flex-shrink: 0;
   line-height: 36px;
   /* 200% */
   letter-spacing: 1.08px;
+  margin-top: 20px;
+  margin-left: 24px;
 }
 
 .portfolio-p {
@@ -316,4 +356,6 @@ flex-shrink: 0;
   line-height: 30px;
   /* 187.5% */
   letter-spacing: 0.48px;
+  margin-bottom: 20px;
+  margin-left: 24px;
 }
