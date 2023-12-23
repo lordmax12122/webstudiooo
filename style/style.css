@@ -116,8 +116,8 @@ header {
 
 .effective-choices-section {
   background-image: url(../images/background.png);
-  padding-top: 200px;
   padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .effective-choices-h1 {
@@ -135,7 +135,6 @@ header {
   width: 1000px;
 }
 
-
 .effective-choices-button {
   margin-bottom: 30px;
   color: var(--title-color);
@@ -152,12 +151,12 @@ header {
   letter-spacing: 0.96px;
 }
 
-.plus-section{
+.plus-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.plus-list{
+.plus-list {
   display: flex;
 }
 
@@ -196,7 +195,7 @@ header {
   flex-shrink: 0;
 }
 
-.work-list{
+.work-list {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -208,23 +207,22 @@ header {
   padding-top: 94px;
 }
 
-.team-list{
+.team-list {
   display: flex;
-    align-items: center;
-    gap: 30px;
-    padding-bottom: 94px;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 94px;
 }
 
-.team-item{
+.team-item {
   border-radius: 0px 0px 4px 4px;
-background: #FFF;
+  background: #fff;
 }
 
 .team-img {
   width: 270px;
-height: 260px;
-flex-shrink: 0;
-
+  height: 260px;
+  flex-shrink: 0;
 }
 
 .team-h2 {
@@ -234,8 +232,6 @@ flex-shrink: 0;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
-  
-  
 }
 
 .team-h3 {
@@ -299,39 +295,39 @@ flex-shrink: 0;
 
 .button-a {
   color: #212121;
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; /* 162.5% */
-letter-spacing: 0.48px;
-padding: 6px 22px 6px 22px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
+  padding: 6px 22px 6px 22px;
 }
 
 .button-a:hover {
-  color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; /* 162.5% */
-letter-spacing: 0.48px;
-background-color: var(--accent-color);
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
+  background-color: var(--accent-color);
 }
 
-.portfolio-list{
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   margin-bottom: 94px;
 }
 
-.portfolio-item{
-  border: 1px solid #EEE;
-background: #FFF;
-display: inline;
+.portfolio-item {
+  border: 1px solid #eee;
+  background: #fff;
+  display: inline;
 }
 
 .portfolio-h3 {
