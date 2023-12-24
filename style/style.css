@@ -23,7 +23,10 @@ header {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  border: solid red 1px;
+}
+
+.main-pages{
+  border: solid 1px #ECECEC;
 }
 
 .main-pages-container {
@@ -121,9 +124,10 @@ header {
 }
 
 .effective-choices-h1 {
+  margin-bottom: 30px;
   color: var(--title-color);
   text-align: center;
-  margin-bottom: 80px;
+  
   margin-left: auto;
   margin-right: auto;
   font-size: 44px;
@@ -136,7 +140,8 @@ header {
 }
 
 .effective-choices-button {
-  margin-bottom: 30px;
+  border: none;
+  border-radius: 4px;
   color: var(--title-color);
   background-color: #2196f3;
   display: block;
@@ -158,6 +163,7 @@ header {
 
 .plus-list {
   display: flex;
+  row-gap: 30px;
 }
 
 .plus-h3 {
@@ -186,7 +192,6 @@ header {
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
-  padding-bottom: 50px;
 }
 
 .work-img {
@@ -200,11 +205,12 @@ header {
   align-items: center;
   gap: 30px;
   padding-bottom: 94px;
+  padding-top: 50px;
 }
 
 .team-section {
   background: #f5f4fa;
-  padding-top: 94px;
+  
 }
 
 .team-list {
@@ -232,6 +238,8 @@ header {
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
+  padding-top: 94px;
+  margin-bottom: 50px;
 }
 
 .team-h3 {
@@ -290,10 +298,12 @@ header {
 
 .button {
   color: var(--title-color);
-  margin-bottom: 50px;
+  
 }
 
 .button-a {
+  border: none;
+  border-radius: 4px;
   color: #212121;
   text-align: center;
   font-family: Roboto;
@@ -322,6 +332,7 @@ header {
   flex-wrap: wrap;
   gap: 30px;
   margin-bottom: 94px;
+  margin-top: 50px;
 }
 
 .portfolio-item {
@@ -339,6 +350,7 @@ header {
   letter-spacing: 1.08px;
   margin-top: 20px;
   margin-left: 24px;
+  margin-right: 24px;
 }
 
 .portfolio-p {
@@ -350,4 +362,5 @@ header {
   letter-spacing: 0.48px;
   margin-bottom: 20px;
   margin-left: 24px;
+  margin-right: 24px;
 }
