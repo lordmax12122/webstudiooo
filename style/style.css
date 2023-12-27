@@ -298,11 +298,12 @@ header {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-top: 94px;
 }
 
 .button {
   color: var(--title-color);
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .button-a {
@@ -333,12 +334,14 @@ header {
   background-color: var(--accent-color);
 }
 
+.portfolio{
+  padding-bottom: 94px;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  margin-bottom: 94px;
-  margin-top: 50px;
 }
 
 .portfolio-item {
