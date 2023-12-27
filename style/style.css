@@ -23,6 +23,7 @@ header {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  border: #2196f3 solid;
 }
 
 .main-pages {
@@ -182,6 +183,10 @@ header {
   letter-spacing: 0.42px;
 }
 
+.work-section{
+  padding-bottom: 94px;
+}
+
 .work-title {
   color: var(--text-color);
   text-align: center;
@@ -200,20 +205,21 @@ header {
 .work-list {
   display: flex;
   align-items: center;
-  gap: 30px;
-  padding-bottom: 94px;
+  gap: 30px;  
   margin-top: 50px;
+  
 }
 
 .team-section {
   background: #f5f4fa;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .team-list {
   display: flex;
   align-items: center;
   gap: 30px;
-  padding-bottom: 94px;
 }
 
 .team-item {
@@ -234,7 +240,6 @@ header {
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
