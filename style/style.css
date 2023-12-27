@@ -112,10 +112,7 @@ header {
   color: var(--accent-color);
 }
 
-.effective-choices-container {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 .effective-choices-section {
   background-image: url(../images/background.png);
@@ -123,7 +120,7 @@ header {
   padding-top: 200px;
 }
 
-.effective-choices-h1 {
+.effective-choices-title {
   margin-bottom: 30px;
   color: var(--title-color);
   text-align: center;
@@ -136,7 +133,7 @@ header {
   /* 136.364% */
   letter-spacing: 2.64px;
   text-transform: uppercase;
-  width: 1000px;
+  width: 696px;
 }
 
 .effective-choices-button {
@@ -166,7 +163,7 @@ header {
   gap: 30px;
 }
 
-.plus-h3 {
+.plus-subtitle {
   color: var(--text-color);
   font-size: 14px;
   font-weight: 700;
@@ -176,7 +173,7 @@ header {
   margin-bottom: 10px;
 }
 
-.plus-p {
+.plus-description {
   color: var(--description-color);
   font-size: 14px;
   font-weight: 400;
@@ -185,7 +182,7 @@ header {
   letter-spacing: 0.42px;
 }
 
-.work-h2 {
+.work-title {
   color: var(--text-color);
   text-align: center;
   font-size: 36px;
@@ -230,28 +227,28 @@ header {
   flex-shrink: 0;
 }
 
-.team-h2 {
+.team-title {
   color: var(--text-color);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
-  margin-top: 94px;
+  padding-top: 94px;
   margin-bottom: 50px;
 }
 
-.team-h3 {
+.team-subtitle {
   color: var(--text-color);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.48px;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 
-.team-p {
+.team-description {
   color: var(--description-color);
   text-align: center;
   font-size: 16px;
@@ -259,7 +256,7 @@ header {
   line-height: 1.18;
   letter-spacing: 0.48px;
   margin-top: 10px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .footer-pages-contacts-address {
@@ -296,7 +293,7 @@ header {
   display: flex;
   justify-content: center;
   gap: 8px;
-  padding-top: 94px;
+  margin-top: 94px;
 }
 
 .button {
@@ -345,7 +342,7 @@ header {
   display: inline;
 }
 
-.portfolio-h3 {
+.portfolio-subtitle {
   color: var(--text-color);
   font-size: 18px;
   font-weight: 700;
@@ -357,7 +354,7 @@ header {
   margin-right: 24px;
 }
 
-.portfolio-p {
+.portfolio-description {
   color: var(--description-color);
   font-size: 16px;
   font-weight: 400;
