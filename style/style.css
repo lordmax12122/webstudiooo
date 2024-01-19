@@ -164,6 +164,13 @@ header {
   gap: 30px;
 }
 
+.plus-item::before {
+  background-image: url(../images/antenna1.png), url(../images/clock1.png), url(../images/diagram1.png), url(../images/astronaut1.png);
+  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
+}
+
 .plus-subtitle {
   color: var(--text-color);
   font-size: 14px;
