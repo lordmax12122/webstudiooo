@@ -1,4 +1,5 @@
 :root {
+  --grid-card:3;
   --accent-color: #2196f3;
   --text-color: #212121;
   --title-color: #fff;
@@ -113,8 +114,6 @@ header {
   color: var(--accent-color);
 }
 
-
-
 .effective-choices-section {
   background-image: url(../images/background.png);
   padding-bottom: 200px;
@@ -165,8 +164,9 @@ header {
 }
 
 .plus-item::before {
-  background-image: url(../images/antenna1.png), url(../images/clock1.png), url(../images/diagram1.png), url(../images/astronaut1.png);
-  background-color: #F5F4FA;
+  background-image: url(../images/antenna1.png), url(../images/clock1.png),
+    url(../images/diagram1.png), url(../images/astronaut1.png);
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
 }
@@ -190,7 +190,7 @@ header {
   letter-spacing: 0.42px;
 }
 
-.work-section{
+.work-section {
   padding-bottom: 94px;
 }
 
@@ -212,9 +212,8 @@ header {
 .work-list {
   display: flex;
   align-items: center;
-  gap: 30px;  
+  gap: 30px;
   margin-top: 50px;
-  
 }
 
 .team-section {
@@ -291,7 +290,7 @@ header {
   letter-spacing: 0.42px;
 }
 
-.footer-pages-contacts-item{
+.footer-pages-contacts-item {
   margin-top: 9px;
 }
 
@@ -300,8 +299,6 @@ header {
   padding-bottom: 60px;
   padding-top: 60px;
 }
-
-
 
 .button-list {
   display: flex;
@@ -343,17 +340,18 @@ header {
   background-color: var(--accent-color);
 }
 
-.portfolio{
+.portfolio {
   padding-bottom: 94px;
 }
 
 .portfolio-list {
+  grid-gap: 30px;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
 }
 
 .portfolio-item {
+  --grid-card: 3;
   border: 1px solid #eee;
   background: #fff;
   display: inline;
@@ -382,4 +380,14 @@ header {
   letter-spacing: 0.48px;
   margin-bottom: 20px;
   margin-left: 24px;
+}
+
+.grid-item {
+  width: calc((100% - 30px * var(--grid-card)) / var(--grid-card));
+}
+
+.grid-list {
+  display: flex;
+  grid-gap: 30px;
+  justify-content: center;
 }
