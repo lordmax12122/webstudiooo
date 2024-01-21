@@ -1,5 +1,5 @@
 :root {
-  --grid-card:3;
+  --grid-card: 3;
   --accent-color: #2196f3;
   --text-color: #212121;
   --title-color: #fff;
@@ -163,12 +163,24 @@ header {
   gap: 30px;
 }
 
-.plus-item::before {
-  background-image: url(../images/antenna1.png), url(../images/clock1.png),
-    url(../images/diagram1.png), url(../images/astronaut1.png);
-  background-color: #f5f4fa;
-  width: 270px;
-  height: 120px;
+.plus-item:first-child:before {
+  display: block;
+  content: url(../images/antenna.png);
+}
+
+.plus-item:nth-child(2):before {
+  display: block;
+  content: url(../images/clock.png);
+}
+
+.plus-item:nth-child(3):before {
+  display: block;
+  content: url(../images/diagram.png);
+}
+
+.plus-item:nth-child(4):before {
+  display: block;
+  content: url(../images/astronaut.png);
 }
 
 .plus-subtitle {
@@ -179,6 +191,7 @@ header {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .plus-description {
