@@ -24,7 +24,7 @@ header {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  border: #2196f3 solid;
+  border: transparent solid;
 }
 
 .main-pages {
@@ -115,7 +115,7 @@ header {
 }
 
 .effective-choices-section {
-  background-image: url(../images/background.png);
+  background-image: url(../images/background.webp);
   padding-bottom: 200px;
   padding-top: 200px;
   background-repeat: no-repeat;
@@ -168,22 +168,22 @@ header {
 
 .plus-item:first-child:before {
   display: block;
-  content: url(../images/antenna.png);
+  content: url(../images/antenna.webp);
 }
 
 .plus-item:nth-child(2):before {
   display: block;
-  content: url(../images/clock.png);
+  content: url(../images/clock.webp);
 }
 
 .plus-item:nth-child(3):before {
   display: block;
-  content: url(../images/diagram.png);
+  content: url(../images/diagram.webp);
 }
 
 .plus-item:nth-child(4):before {
   display: block;
-  content: url(../images/astronaut.png);
+  content: url(../images/astronaut.webp);
 }
 
 .plus-subtitle {
