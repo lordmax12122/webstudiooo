@@ -115,11 +115,15 @@ header {
 }
 
 .effective-choices-section {
-  background-image: url(../images/background.webp);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/background.webp);
   padding-bottom: 200px;
   padding-top: 200px;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
 }
 
 .effective-choices-title {
