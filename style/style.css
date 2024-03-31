@@ -455,3 +455,8 @@ line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
+
+.client-item {
+  fill: #AFB1B8;
+
+}
