@@ -114,6 +114,29 @@ header {
   color: var(--accent-color);
 }
 
+.header-contacts-list-item .header-contacts-link {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.contacts-link:hover > .header-icon {
+  fill: var(--accent-color);
+}
+
+.header-icon {
+  fill: #757575;
+}
+
+.contacts-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 .effective-choices-section {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
