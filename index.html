@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/positions.css">
   <link rel="stylesheet" href="./style/reset.css" />
   <link rel="stylesheet" href="./style/style.css" />
 </head>
@@ -35,15 +36,15 @@
       <ul class="contacts-list">
         <li class="contacts-item">
           <a href="malito:info@devstudio.com" class="contacts-malito contacts-link">
-          <svg class="header-icon" width="20" height="16">
-            <use href="./images/symbol-defs.svg#icon-envelope-hover"></use>
-          </svg>info@devstudio.com</a>
+            <svg class="header-icon" width="20" height="16">
+              <use href="./images/symbol-defs.svg#icon-envelope-hover"></use>
+            </svg>info@devstudio.com</a>
         </li>
         <li class="contacts-item">
           <a href="tel:+380961111111" class="contacts-tel contacts-link">
-          <svg class="header-icon" width="10" height="16">
-            <use href="./images/symbol-defs.svg#icon-smartphone"></use>
-          </svg>+38 096 111 11 11</a>
+            <svg class="header-icon" width="10" height="16">
+              <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+            </svg>+38 096 111 11 11</a>
         </li>
       </ul>
     </div>
@@ -97,13 +98,28 @@
         <h2 class="work-title">Чим ми займаємося</h2>
         <ul class="work-list">
           <li class="work-item">
-            <img src="./images/photo1.webp" class="work-img" alt="Photo" />
+            <div class="work-box">
+              <img src="./images/photo1.webp" class="work-img" alt="Photo" />
+              <p class="work-description">
+                Десктопні додатки
+              </p>
+            </div>
           </li>
           <li class="work-item">
-            <img src="./images/photo.webp" class="work-img" alt="Photo" />
+            <div class="work-box">
+              <img src="./images/photo.webp" class="work-img" alt="Photo" />
+              <h3 class="work-description">
+                Мобільні додатки
+              </h3>
+            </div>
           </li>
           <li class="work-item">
-            <img src="./images/photo2.webp" class="work-img" alt="Photo" />
+            <div class="work-box">
+              <img src="./images/photo2.webp" class="work-img" alt="Photo" />
+              <h3 class="work-description">
+                Дизайнерські рішення
+              </h3>
+            </div>
           </li>
         </ul>
       </div>

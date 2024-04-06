@@ -253,7 +253,6 @@ header {
 .work-img {
   width: 370px;
   height: 294px;
-  flex-shrink: 0;
 }
 
 .work-list {
@@ -261,6 +260,26 @@ header {
   align-items: center;
   gap: 30px;
   margin-top: 50px;
+}
+
+.work-box {
+  position: relative;
+}
+
+.work-box > .work-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  bottom: 4px;
+  background: rgba(47, 48, 58, 0.8);
+  color: #eee;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .team-section {
@@ -372,8 +391,7 @@ header {
 .footer-items {
   fill: #fff;
   width: 20px;
-height: 20px;
-
+  height: 20px;
 }
 
 .footer-item:hover {
@@ -381,11 +399,11 @@ height: 20px;
 }
 
 .footer-item {
-  background-color: rgba(255, 255, 255, 0.10);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
 }
 
-.footer-link{
+.footer-link {
   width: 44px;
   height: 44px;
   display: flex;
@@ -534,8 +552,6 @@ height: 20px;
   padding-top: 94px;
 }
 
-
-
 .client-item {
   fill: #afb1b8;
   width: 170px;
@@ -558,7 +574,7 @@ height: 20px;
   fill: #ffffff;
 }
 
-.team-link:hover {
+.team-link:hover > .team-icon {
   background-color: #2196f3;
 }
 
