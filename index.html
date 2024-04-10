@@ -55,7 +55,7 @@
         <h1 class="effective-choices-title">
           ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
         </h1>
-        <button type="button" class="effective-choices-button">
+        <button data-modal-open type="button" class="effective-choices-button">
           Замовити послугу
         </button>
       </div>
@@ -383,6 +383,39 @@
       </div>
     </div>
   </footer>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="drop-button" data-modal-close type="button">
+        <svg class="drop-icon">
+          <use href="./images/symbol-defs.svg#icon-cross">
+          </use>
+        </svg>
+      </button>
+      <form class="questions" action="">
+        <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <ul class="form-list">
+          <li class="form-item">
+            <label for="">Ім'я</label>
+            <input class="form-input" type="name" placeholder="" />
+          </li>
+          <li class="form-item">
+            <label for="">Телефон</label>
+            <input class="form-input" type="tel" placeholder="" required/>
+          </li>
+          <li class="form-item">
+            <label for="">Пошта</label>
+            <input class="form-input" type="email" placeholder=""/>
+          </li>
+          <li>
+            <label for="">Коментар</label>
+            <input class="form-comment" type="text" placeholder="Введіть текст">
+          </li>
+        </ul>
+        <button class="form-btn" type="submit">Відправити</button>
+      </form>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
