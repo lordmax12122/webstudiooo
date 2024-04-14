@@ -379,6 +379,8 @@
                 </a>
               </li>
             </ul>
+            </div>
+            <form class="footer-box-form" action="">
           <h2 class="footer-box-title">Підпишіться на розсилку</h2>
           <div class="footer-box-container">
             <input type="mail" class="footer-box-input" placeholder="E-mail" required />
@@ -388,9 +390,10 @@
               </svg>
             </button>
           </div>
-          </div>         
-        </div>
+          </form>
+          </div>
   </footer>
+  <form action="">
   <div class="backdrop is-hidden" data-modal>
     <div class="modal-window">
       <button class="modal-close-button" type="button" data-modal-close>
@@ -405,7 +408,7 @@
       <ul class="modal-list">
         <li class="modal-item">
           <label for="name" class="modal-name">Ім'я
-            <input id="name" type="text" class="modal-input" />
+            <input id="name" type="text" class="modal-input" required/>
             <svg class="modal-icons" width="18" height="18">
               <use href="./images/symbol-defs.svg#icon-person"></use>
             </svg>
@@ -413,7 +416,7 @@
         </li>
         <li class="modal-item">
           <label for="phone" class="modal-name">Телефон
-            <input id="phone" type="tel" class="modal-input" />
+            <input id="phone" type="tel" class="modal-input" required/>
             <svg class="modal-icons" width="18" height="18">
               <use href="./images/symbol-defs.svg#icon-phone"></use>
             </svg>
@@ -421,7 +424,7 @@
         </li>
         <li class="modal-item">
           <label for="email" class="modal-name">Пошта
-            <input id="email" type="email" class="modal-input" />
+            <input id="email" type="email" class="modal-input" required/>
             <svg class="modal-icons" width="18" height="18">
               <use href="./images/symbol-defs.svg#icon-email"></use>
             </svg>
@@ -439,9 +442,10 @@
           <a href="#" class="modal-link">Умови договору</a>
         </p>
       </label>
-      <button class="modal-button" type="button" data-modal-close>Відправити</button>
+      <button class="modal-button" type="submit">Відправити</button>
     </div>
   </div>
+</form>
   <script src="./js/modal.js"></script>
 </body>
 

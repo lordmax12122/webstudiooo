@@ -603,6 +603,10 @@ margin-bottom: 20px;
   gap: 12px;
 }
 
+.footer-box-form {
+  margin-top: 12px;
+}
+
 
 .footer-box-input {
   border-radius: 4px;
@@ -616,6 +620,10 @@ margin-bottom: 20px;
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: 0.48px;
+}
+
+.footer-box-input:hover {
+  border-color: #2196f3;
 }
 
 
@@ -673,8 +681,7 @@ margin-bottom: 20px;
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
-.modal-list {
-}
+
 .modal-title {
   color: var(--feauturesmain);
   text-align: center;
@@ -720,12 +727,9 @@ margin-bottom: 20px;
   right: 8px;
 }
 
-.modal-close-button:hover,
-.modal-close-button:focus {
-  fill: var(--whathbtbg);
-}
-
-.modal-close-icons {
+.modal-close-button:hover {
+  fill: #2196f3;
+  transition: ease-in .3s;
 }
 
 .modal-list {
@@ -734,8 +738,7 @@ margin-bottom: 20px;
   gap: 10px;
   margin-bottom: 20px;
 }
-.modal-item {
-}
+
 .modal-name {
   color: var(--headermail);
   font-size: 12px;
@@ -754,6 +757,7 @@ margin-bottom: 20px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  padding-left: 42px;
 }
 
 .modal-icons {
