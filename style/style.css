@@ -78,10 +78,39 @@ header {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
+  position: relative;
 }
 
 .main-pages-link:hover {
   color: var(--accent-color);
+}
+
+.main-pages-links::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50px;
+  width: 48px;
+  height: 4px;
+  opacity: 0;
+  margin-top: 28px;
+  background-color: #2196f3;
+}
+
+.main-pages-links2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50px;
+  width: 78px;
+  height: 4px;
+  opacity: 0;
+  margin-top: 28px;
+  background-color: #2196f3;
+}
+
+.main-pages-item:hover>.main-pages-link::after {
+  opacity: 1;
 }
 
 .contacts-list {
@@ -492,6 +521,7 @@ header {
   /* 200% */
   letter-spacing: 1.08px;
   margin-left: 24px;
+  margin-top: 20px;
 }
 
 .portfolio-description {
@@ -503,6 +533,43 @@ header {
   letter-spacing: 0.48px;
   margin-bottom: 20px;
   margin-left: 24px;
+}
+
+.overlay-text {
+  width: 322px;
+}
+
+.overlay-box {
+  position: relative;
+  width: 370px;
+  height: 294px;
+  margin: 0 auto;
+  background-color: #bdbdbd;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 150, 243, 0.90);
+  transform: translatey(100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-box:hover .overlay {
+  transform: translatey(0);
+}
+
+.overlay p {
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  font-size: 18px;
 }
 
 .grid-item {
