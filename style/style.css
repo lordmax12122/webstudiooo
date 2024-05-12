@@ -204,6 +204,17 @@ header {
   letter-spacing: 2.64px;
   text-transform: uppercase;
   width: 696px;
+  animation-name: glide-button-down;
+  animation-duration: 1s;
+}
+
+@keyframes glide-button-down{
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
 
 .effective-choices-button {
@@ -222,6 +233,17 @@ header {
   line-height: 30px;
   /* 187.5% */
   letter-spacing: 0.96px;
+  animation-name: glide-button-up;
+  animation-duration: 1s;
+}
+
+@keyframes glide-button-up{
+    0% {
+      transform: translateY(50px);
+    }
+    100% {
+      transform: translate(0);
+    }
 }
 
 .plus-section {
